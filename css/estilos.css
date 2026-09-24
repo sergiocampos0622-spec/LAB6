@@ -1,1 +1,86 @@
 /* TODO: escribe aquí tus reglas CSS (Lab #6) */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; 
+    background-color: #f0f4f8; 
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 1.2rem; 
+    color: #322097; 
+}
+
+#ficha-5876 {
+    max-width: 95vw; 
+    margin: 2em auto; 
+    padding: 2em;
+    background-color: #ffffff;
+}
+
+.k-6ca3dd {
+    border: 3px solid #322097; 
+    border-radius: 15px; 
+    box-shadow: 0 5px 15px rgba(50, 32, 151, 0.2);
+}
+
+header {
+    background-color: #322097; 
+    color: white;
+    padding: 20px; 
+    text-align: center;
+}
+
+nav ul {
+    display: flex; 
+    justify-content: center;
+    gap: 25px; 
+    list-style: none;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #322097; 
+    color: white;
+}
+
+form fieldset {
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px;
+    padding: 25px;
+    border: 2px solid #322097; 
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 3vh; 
+    margin-top: 3rem;
+}
