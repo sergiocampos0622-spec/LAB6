@@ -1,2 +1,222 @@
 <!-- TODO: construye aquí tu página (Lab #6) -->
- 
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de viajes - Descubre el mundo</title>
+    <meta name="description" content="Reserva tus próximas vacaciones con nuestra agencia de viajes. Ofrecemos paquetes turísticos, vuelos, hoteles y excursiones inolvidables a nivel mundial.">
+    <meta name="author" content="Sergio Ceballos">
+    <meta name="codigo-sesion" content="LAB6-9V3S">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        .resaltado-interno {
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+            color: #322097;
+        }
+    </style>
+    
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    
+    <noscript>
+        <div style="background-color: #ffcccc; color: #990000; padding: 15px; text-align: center;">
+            <strong>Advertencia:</strong> Para reservar en nuestra agencia de viajes, por favor habilita JavaScript en tu navegador.
+        </div>
+    </noscript>
+
+    <header style="border-bottom: 4px solid #322097;">
+        <h1>Agencia de viajes</h1>
+        <nav>
+            <ul>
+                <li><a href="#destinos">Destinos Top</a></li>
+                <li><a href="#paquetes">Paquetes</a></li>
+                <li><a href="#experiencias">Experiencias</a></li>
+                <li><a href="#reserva">Reserva Ahora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="ficha-5876" class="k-6ca3dd">
+        
+        <section id="destinos">
+            <h2>Destinos Populares</h2>
+            
+            <article>
+                <h3>Escapada a París</h3>
+                <p>Descubre la ciudad del amor. Visita la Torre Eiffel, pasea por el Sena y disfruta de la mejor gastronomía. <mark>¡Oferta especial este mes!</mark></p>
+            </article>
+
+            <article>
+                <h3>Aventura en Tokio</h3>
+                <p>Explora la mezcla perfecta entre tradición y tecnología. Como dicen nuestros viajeros: <q>Tokio es una ciudad que nunca duerme pero siempre te hace soñar.</q> Salidas programadas para el <time datetime="2026-11-15">15 de noviembre de 2026</time>.</p>
+            </article>
+
+            <aside>
+                <h3>Tips de Viaje</h3>
+                <p>Recuerda llevar siempre tu pasaporte vigente. Reducir tu huella de carbono (CO<sub>2</sub>) viajando ligero es nuestra prioridad número 1<sup>ra</sup>.</p>
+            </aside>
+        </section>
+
+        <section id="paquetes">
+            <h2>Nuestros Paquetes Promocionales</h2>
+            <table>
+                <caption>Tabla de paquetes turísticos disponibles</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Destino</th>
+                        <th scope="col">Duración</th>
+                        <th scope="col">Precio (USD)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>París, Francia</td>
+                        <td>7 días / 6 noches</td>
+                        <td>$1,250</td>
+                    </tr>
+                    <tr>
+                        <td>Tokio, Japón</td>
+                        <td>10 días / 9 noches</td>
+                        <td>$2,400</td>
+                    </tr>
+                    <tr>
+                        <td>Cancún, México</td>
+                        <td>5 días / 4 noches</td>
+                        <td>$850</td>
+                    </tr>
+                    <tr>
+                        <td>Roma, Italia</td>
+                        <td>7 días / 6 noches</td>
+                        <td>$1,100</td>
+                    </tr>
+                    <tr>
+                        <td>Nueva York, EE.UU.</td>
+                        <td>6 días / 5 noches</td>
+                        <td>$1,350</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Los precios no incluyen impuestos locales de turismo.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="experiencias">
+            <h2>Galería y Recursos del Viajero</h2>
+            
+            <details>
+                <summary>Políticas de Cancelación</summary>
+                <p>Reembolso completo hasta 30 días antes del vuelo. <del>Penalidad del 50%</del> <ins>Penalidad del 20%</ins> para cancelaciones de última hora.</p>
+            </details>
+
+            <dl>
+                <dt>Check-in</dt>
+                <dd>Proceso de registro en tu hotel o vuelo.</dd>
+                <dt>Voucher</dt>
+                <dd>Documento que avala tu reservación.</dd>
+            </dl>
+
+            <figure>
+                <img src="C:\Users\sergi\OneDrive\Documentos\VS code\LAB6\WIN_20260909_19_54_58_Pro.jpg" alt="NIGGAS IN PARIS" loading="lazy">
+                <figcaption>Nuestros clientes disfrutando de su itinerario personalizado.</figcaption>
+            </figure>
+
+            <h3>Testimonios de viajeros</h3>
+            <audio controls>
+                <source src="C:\Users\sergi\OneDrive\Documentos\VS code\Nueva carpeta\gnome-woo.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+
+            <h3>Mapa de nuestras oficinas</h3>
+            <iframe src="https://www.google.com/maps/place/Aeropuerto+Internacional+de+Tocumen/@9.0720403,-79.3860092,15.5z/data=!3m1!5s0x8fab5531fa81bc03:0xe2beff9a24bd90b2!4m9!1m2!2m1!1sgoogle+maps!3m5!1s0x8fab553175c2905f:0x97c42a4d90dbc27a!8m2!3d9.0690876!4d-79.3830103!16zL20vMHBzMjY?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D" title="Mapa de ubicación de la Agencia de Viajes" loading="lazy"></iframe>
+
+            <p class="resaltado-interno">
+                Ingresa al portal usando <kbd>Enter</kbd> para generar tu boleto en formato <code>.pdf</code>. Validado por la <abbr title="Asociación Internacional de Transporte Aéreo">IATA</abbr>. <small>Aplican términos y condiciones.</small> Visita nuestro blog en <cite>Viajeros Frecuentes</cite> para <strong>más inspiración</strong> y viaja con <em>estilo</em>.
+            </p>
+        </section>
+
+        <section id="reserva">
+            <h2>Formulario de Reserva</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Configura tu viaje soñado</legend>
+
+                    <label for="nombre_cliente">Nombre completo:</label>
+                    <input type="text" id="nombre_cliente" name="nombre" required placeholder="Ej. Juan Pérez" maxlength="80" autofocus>
+
+                    <label for="email_cliente">Correo electrónico:</label>
+                    <input type="email" id="email_cliente" name="email" required autocomplete="email">
+
+                    <label for="telefono_cliente">Teléfono móvil:</label>
+                    <input type="tel" id="telefono_cliente" name="telefono" pattern="[0-9]{8}" placeholder="60000000">
+
+                    <label for="pasajeros">Número de pasajeros:</label>
+                    <input type="number" id="pasajeros" name="pasajeros" min="1" max="15" step="1" value="2">
+
+                    <label for="fecha_ida">Fecha de ida:</label>
+                    <input type="date" id="fecha_ida" name="fecha_ida" required>
+
+                    <label for="codigo_promo">Código promocional secreto:</label>
+                    <input type="password" id="codigo_promo" name="promo" minlength="5">
+
+                    <label>¿Requiere seguro de viaje?</label>
+                    <input type="radio" id="seguro_si" name="seguro" value="si" checked>
+                    <label for="seguro_si">Sí</label>
+                    <input type="radio" id="seguro_no" name="seguro" value="no">
+                    <label for="seguro_no">No</label>
+
+                    <label for="extras_viaje">Servicios extra:</label>
+                    <input type="checkbox" id="extras_viaje" name="extras" value="traslado">
+                    <label for="extras_viaje">Traslado Aeropuerto-Hotel</label>
+
+                    <label for="calidad_hotel">Categoría del hotel (Estrellas):</label>
+                    <input type="range" id="calidad_hotel" name="hotel_estrellas" min="3" max="5">
+
+                    <label for="color_etiqueta">Color de etiqueta de equipaje:</label>
+                    <input type="color" id="color_etiqueta" name="color_etiqueta">
+
+                    <label for="web_agencia">Web de referencia:</label>
+                    <input type="url" id="web_agencia" name="referencia" readonly value="https://misviajes.com/">
+
+                    <label for="hora_vuelo">Preferencia de horario de vuelo:</label>
+                    <input type="time" id="hora_vuelo" name="hora" disabled>
+
+                    <label for="destino_select">Destino preferido:</label>
+                    <select id="destino_select" name="destino" multiple>
+                        <option value="paris">París</option>
+                        <option value="tokio">Tokio</option>
+                        <option value="cancun">Cancún</option>
+                        <option value="roma">Roma</option>
+                    </select>
+
+                    <label for="aerolinea_fav">Aerolínea preferida:</label>
+                    <input list="lista_aerolineas" id="aerolinea_fav" name="aerolinea">
+                    <datalist id="lista_aerolineas">
+                        <option value="Copa Airlines">
+                        <option value="Iberia">
+                        <option value="Air France">
+                    </datalist>
+
+                    <label for="peticiones">Peticiones especiales:</label>
+                    <textarea id="peticiones" name="peticiones" rows="4" placeholder="Alergias, accesibilidad, etc..."></textarea>
+
+                    <button type="submit">Solicitar Cotización</button>
+                </fieldset>
+            </form>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Agencia de viajes - Proyecto académico por Sergio Ceballos</p>
+        <cite>Diseño Web HTML5 y CSS3 &copy; 2026</cite>
+    </footer>
+</body>
+</html>
